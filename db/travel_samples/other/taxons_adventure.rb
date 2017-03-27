@@ -9,39 +9,39 @@ taxons = [
   position: 0 
  },
  {
-  name: 'Tours',
+  name: 'Adventures',
   taxonomy: categories,
-  permalink: 'categories/tours',
+  permalink: 'categories/adventures',
   position: 13
  },
  {
   name: 'Air',
   taxonomy: categories,
-  permalink: 'categories/tours/air-tours',
+  permalink: 'categories/adventures/air-adventures',
   position: 21
  },
  {
   name: 'Day',
   taxonomy: categories,
-  permalink: 'categories/tours/day-tours',
+  permalink: 'categories/adventures/day-adventures',
   position: 22
  },
  {
   name: 'Night',
   taxonomy: categories,
-  permalink: 'categories/tours/night-tours',
+  permalink: 'categories/adventures/night-adventures',
   position: 23
  },
  {
   name: 'Overnight',
   taxonomy: categories,
-  permalink: 'categories/tours/overnight',
+  permalink: 'categories/adventures/overnight',
   position: 24
  },
  {
   name: 'Nautical',
   taxonomy: categories,
-  permalink: 'categories/tours/nautical-tours',
+  permalink: 'categories/adventures/nautical-adventures',
   position: 25 
  },
 ]  

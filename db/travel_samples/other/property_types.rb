@@ -6,10 +6,10 @@ Spree::PropertyType.create!([
      name: 'Programs Feature',
   },
   {
-     name: 'Tours Include',
+     name: 'Adventures Include',
   },
   {
-     name: 'Tours Feature',
+     name: 'Adventures Feature',
   },
   {
      name: 'Flight Feature',

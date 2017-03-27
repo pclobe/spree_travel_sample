@@ -13,7 +13,7 @@ module SpreeTravelSample
           'taxons',
           #'property_types',
         ],
-        'hotels' => [
+        'apartments' => [
           'taxons',
           #'property_types',
           'properties',
