@@ -6,9 +6,9 @@ namespace :spree_travel_sample do
 
   namespace :load do
 
-    desc 'Loads hotel travel sample data. '
-    task :hotel => :environment do
-      SpreeTravelSample::Engine.load_travel_samples('hotels')
+    desc 'Loads apartment travel sample data. '
+    task :apartment => :environment do
+      SpreeTravelSample::Engine.load_travel_samples('apartments')
     end
 
     desc 'Loads car travel sample data. '

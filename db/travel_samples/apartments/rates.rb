@@ -1,4 +1,4 @@
-hotels = Spree::Product.where(:product_type => Spree::ProductType.find_by_name('hotel'))
+apartments = Spree::Product.where(:product_type => Spree::ProductType.find_by_name('apartment'))
 years = 1 # HERE
 seasons = 2 # HERE
 plans = Spree::OptionType.find_by_name('plan').option_values
@@ -10,8 +10,8 @@ def price(base, multiplier, adder)
   number
 end
 
-for hotel in hotels
-  for room in hotel.variants
+for apartment in apartments
+  for room in apartment.variants
     for year in 1..years
       for season in 1..seasons
         for plan in plans
@@ -31,7 +31,7 @@ for hotel in hotels
           rate.set_persisted_option_value(:first_child, child1 = price(30..50, 1, 0..5))
           rate.set_persisted_option_value(:second_child, child2 = price(20..40, 1, 5..10))
           rate.save
-          string = "Rate: #{hotel.name}: (room:#{room.id}), (plan:#{plan.id}) (start:#{start_date}) (end:#{end_date})"
+          string = "Rate: #{apartment.name}: (room:#{room.id}), (plan:#{plan.id}) (start:#{start_date}) (end:#{end_date})"
           string += " (simple:#{simple}) (double:#{double}) (triple:#{triple})"
           puts "  - created: ".green + string
         end

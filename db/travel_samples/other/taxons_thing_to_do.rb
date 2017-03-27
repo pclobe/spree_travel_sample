@@ -8,9 +8,9 @@ taxons = [
   position: 0
  },
  {
-  name: 'Hoteles',
+  name: 'Apartmentes',
   taxonomy: things_to_do,
-  permalink: 'things-to-do/hotels',
+  permalink: 'things-to-do/apartments',
   position: 1
  },
  {

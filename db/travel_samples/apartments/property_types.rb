@@ -1,6 +1,6 @@
 # property_types = [
-#   { name: 'Hotel Services', },
-#   { name: 'Hotel Features', },
+#   { name: 'Apartment Services', },
+#   { name: 'Apartment Features', },
 #   { name: 'Room Amenity', },
 #   { name: 'Room Feature', },
 # ]

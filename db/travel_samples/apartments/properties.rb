@@ -1,5 +1,5 @@
 properties = {
-  'Hotel Services' => {
+  'Apartment Services' => {
     'breakfast' => 'Breakfast',
     'lunch' => 'Lunch & Dinner',
     'taxi' => 'Taxi',
@@ -9,7 +9,7 @@ properties = {
     'wifi' => 'Wifi',
     'phone' => 'Phone Available'
   },
-  'Hotel Features' => {
+  'Apartment Features' => {
     'multilingual' => 'Multilingual Staff',
     'satellite' => 'Satellite TV',
     'dvd' => 'DVD Player',
